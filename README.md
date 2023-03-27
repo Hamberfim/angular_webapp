@@ -11,7 +11,8 @@ Additional Setup
 
 ````"json": "json-server data.js -p 4600",
     "serve": "ng serve",
-    "start": "npm-run-all -p serve json",```
+    "start": "npm-run-all -p serve json",
+```
 
 <hr />
 
