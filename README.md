@@ -3,6 +3,7 @@
 A Sports Product Web App
 
 - Additional Setup
+  Configure web services
 
 1. npm i -D json-server npm-run-all
 
