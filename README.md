@@ -15,13 +15,13 @@ Additional Setup
 "start": "npm-run-all -p serve json",
 ```
 
-3. npm i -D bootstrap
+3. npm i -D bootstrap and add to angular.json styles "node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 ```
 "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
-            ],
+    "src/styles.css",
+    "node_modules/bootstrap/dist/css/bootstrap.min.css"
+],
 ```
 
 ### Angular Webapp
