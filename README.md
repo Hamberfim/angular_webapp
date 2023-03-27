@@ -1,6 +1,10 @@
 # Angular Web App
+
 A Sports Product Web App
 
+- Additional Setup
+
+1. npm i -D json-server npm-run-all
 
 <hr />
 
