@@ -1,6 +1,8 @@
 # Angular Web App
 A Sports Product Web App
 
+
+<hr />
 ### Angular Webapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
