@@ -7,6 +7,11 @@ Additional Setup
 ### Configure web services
 
 1. npm i -D json-server npm-run-all
+2. add to the package.json scripts section so the Angular toolchain and web services start at the same time
+
+````"json": "json-server data.js -p 4600",
+    "serve": "ng serve",
+    "start": "npm-run-all -p serve json",```
 
 <hr />
 
@@ -37,3 +42,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+````
