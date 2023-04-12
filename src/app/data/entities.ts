@@ -8,7 +8,7 @@ export type Product = {
 
 export class OrderLine {
   constructor(public product: Product, public quantity: number) {
-    // no statements required
+    // newer syntax  - no statements required
   }
 
   get total(): number {
